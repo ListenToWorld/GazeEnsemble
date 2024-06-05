@@ -79,3 +79,12 @@ If you want to inference on the flipped test dataset, you can add '--flip' to th
 
 ### Ensemble Model
 For training ensemble model using the training set, it is necessary to first place the CSV files of the predicted values of the participating models on the training dataset in the same folder, and place the CSV files of the predicted values on the test dataset in another folder, then run [ensemble.py](ensemble.py) to generate new predict csv file on test dataset.
+
+### Weights of Model
+
+| Model |  url  | 
+| :-----: | :---: | 
+|  vit-s  |   [*url*](https://yunpan.ustb.edu.cn/link/AAC4209827D8ED4B26BAD1471446E3C829) |
+|  hopenet  |  [*url*](https://yunpan.ustb.edu.cn/link/AA9A0BD5161C6E4F96BCE05B4EA35181BD)|
+|  gaze360 |  [*url*](https://yunpan.ustb.edu.cn/link/AA9F2176E9562F4FE18B30F9CC87FDCAB4) |
+|  GazePose | [*url*](https://yunpan.ustb.edu.cn/link/AAD858E87924874D6D96CE45F16E786AE3) |
